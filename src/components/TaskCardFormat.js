@@ -11,25 +11,26 @@ const TaskCardFormat = props =>{
 
                 <button type="button"
                         onClick={() => props.movetoDue(props.task)}
-                        className="btn btn-primary" style={{float: 'right'}}>
+                        className="btn btn-primary" style={{display:'flex'}}>
 
                     Due
                 </button>
+
                 <button type="button"
                         onClick={() => props.movetoInProgress(props.task)}
-                        className="btn btn-primary" style={{float: 'right'}}>
+                        className="btn btn-primary" style={{display:'flex'}}>
 
                     In Progress
                 </button>
                 <button type="button"
                         onClick={() => props.movetoReview(props.task)}
-                        className="btn btn-primary" style={{float: 'right'}}>
+                        className="btn btn-primary" style={{display:'flex'}}>
 
                     For Review
                 </button>
                 <button type="button"
                         onClick={() => props.movetoDone(props.task)}
-                        className="btn btn-primary" style={{float: 'right'}}>
+                        className="btn btn-primary" style={{display:'flex'}}>
 
                     Completed
                 </button>

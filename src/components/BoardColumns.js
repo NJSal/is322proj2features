@@ -54,7 +54,10 @@ class BoardColumns extends React.Component{
                 task={task}
                 key={task.id}
                 type={task.type}
+                movetoDue = {this.movetoDue}
                 movetoInProgress={this.movetoInProgress}
+                movetoReview = {this.movetoReview}
+                movetoDone = {this.movetoDone}
             />
         });
 
@@ -63,8 +66,10 @@ class BoardColumns extends React.Component{
                 task={task}
                 key={task.id}
                 type={task.type}
-                movetoReview = {this.movetoReview}
                 movetoDue = {this.movetoDue}
+                movetoInProgress={this.movetoInProgress}
+                movetoReview = {this.movetoReview}
+                movetoDone = {this.movetoDone}
             />
         });
 
@@ -73,8 +78,10 @@ class BoardColumns extends React.Component{
                 task={task}
                 key={task.id}
                 type={task.type}
+                movetoDue = {this.movetoDue}
+                movetoInProgress={this.movetoInProgress}
+                movetoReview = {this.movetoReview}
                 movetoDone = {this.movetoDone}
-                movetoInProgress = {this.movetoInProgress}
             />
         });
 
@@ -83,7 +90,10 @@ class BoardColumns extends React.Component{
                 task={task}
                 key={task.id}
                 type={task.type}
+                movetoDue = {this.movetoDue}
+                movetoInProgress={this.movetoInProgress}
                 movetoReview = {this.movetoReview}
+                movetoDone = {this.movetoDone}
             />
         });
 

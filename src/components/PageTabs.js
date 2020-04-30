@@ -9,7 +9,7 @@ class PageTabs extends React.Component {
 
     onTabClick(event, tabName) {                   //gets the event and the change of the view
         event.preventDefault();                      //prevent browser from reloading/refreshing
-        this.props.onViewChange(tabName);            //set the view
+        this.props.viewChange(tabName);            //set the view
     }
 
     render () {
