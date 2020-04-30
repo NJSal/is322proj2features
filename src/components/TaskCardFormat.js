@@ -1,5 +1,7 @@
 import React from 'react';
 
+//import TaskItem from './TaskItem';
+
 const TaskCardFormat = props =>{
     return(
         <div className = "card " style={{width: "18rem"}}>
@@ -12,7 +14,7 @@ const TaskCardFormat = props =>{
                 <button type="button"
                         onClick={() => props.movetoDue(props.task)}
                         className="btn btn-primary" style={{display:'flex'}}>
-
+                    {/***<TaskItem props = {props.movetoDue(props.task)}/>***/}
                     Due
                 </button>
 
