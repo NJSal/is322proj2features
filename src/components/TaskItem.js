@@ -66,6 +66,7 @@ const TaskItem = (props) =>{
                     </button>
                 </TaskCardFormat>
             );
+
     }
 
     /*****
