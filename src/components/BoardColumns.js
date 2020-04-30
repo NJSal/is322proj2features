@@ -1,14 +1,7 @@
 import React from 'react';
 import TaskCardFormat from './TaskCardFormat';
-import TaskItem from './TaskItem';
 
 class BoardColumns extends React.Component{
-    /****
-     const tasksDue = this.props.tasks.filter(task => task.column === 'todo');
-     const tasksInProgress = this.props.tasks.filter(task => task.column === 'in-progress');
-     const tasksForReview = this.props.tasks.filter(task => task.column === 'review');
-     const tasksDone = this.props.tasks.filter(task => task.column === 'done');
-     *****/
 
     movetoDue =(task)=>{
         const taskIndex1 = this.props.tasks.findIndex(t=>t.id === task.id);

@@ -1,7 +1,5 @@
 import React from 'react';
 
-//import TaskItem from './TaskItem';
-
 const TaskCardFormat = props =>{
     return(
         <div className = "card " style={{width: "18rem"}}>
